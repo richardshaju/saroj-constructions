@@ -1,11 +1,13 @@
 /********** Template CSS **********/
 :root {
-    --primary: #348E38;
+    --primary: #b67330;
     --secondary: #525368;
     --light: #E8F5E9;
     --dark: #0F4229;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 .back-to-top {
     position: fixed;
     display: none;
@@ -60,7 +62,14 @@ h6,
     font-weight: 500;
 }
 
-.btn-primary,
+.btn-primary{
+    background: #be7810;
+    border: 1px solid #28282815;
+    color: #E8F5E9;
+}
+.text-primary{
+    color: #be7810;
+}
 .btn-outline-primary:hover {
     color: var(--light);
 }
