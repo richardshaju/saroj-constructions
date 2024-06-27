@@ -451,13 +451,14 @@ progress {
     font-size: 3.5rem;
   }
 }
-.display-5 {
+. {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 700;
   line-height: 1.2;
+  
 }
 @media (min-width: 1200px) {
-  .display-5 {
+  . {
     font-size: 3rem;
   }
 }
@@ -2553,15 +2554,15 @@ fieldset:disabled .btn {
   border-color: #348e38;
 }
 .btn-primary:hover {
-  color: #000;
-  background-color: #529f56;
-  border-color: #48994c;
+  color: #ffffff;
+  background-color: #9f640b;
+  border-color: #be7810;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
-  color: #000;
-  background-color: #529f56;
-  border-color: #48994c;
+  color: #ffffff;
+  background-color: #be7810;
+  border-color: #be7810;
   box-shadow: 0 0 0 0.25rem rgba(44, 121, 48, 0.5);
 }
 .btn-check:checked + .btn-primary,
